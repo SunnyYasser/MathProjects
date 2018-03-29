@@ -1,4 +1,4 @@
 This is a Java implementation of the Gauss Jordan Elimination Method.
-Currently only applicable in real numbers but working on to implement over other real fields too.
+Currently only applicable in real numbers but working on to implement over other fields too.
 While it’s typical to solve a system of linear equations in real numbers, it’s also possible to solve a linear system over any mathematical field. Here is some Java code that defines various fields and provides a version of Gauss-Jordan elimination that works on any field. The basic Gauss-Jordan elimination algorithm can be adapted to solve systems of linear equations, invert matrices, calculate determinants, calculate ranks, and more.
 
