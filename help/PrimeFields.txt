@@ -1,0 +1,10 @@
+A prime field is a field with no proper subfields.
+
+The definition still holds for a field, by dint of the fact that a field is also a ring with unity.
+
+Let (F,+,∘) be a field.
+
+Let K be a subset of F such that (K,+,∘) is also a field.
+
+
+Then (K,+,∘) is a subfield of (F,+,∘)
