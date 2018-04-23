@@ -1,9 +1,0 @@
-Finite fields of order 2m are called binary fields or characteristic-two finite fields. They are of special interest because they are particularly efficient for implementation in hardware, or on a binary computer.
-
-The elements of GF(2m) are binary polynomials, i.e. polynomials whose coefficients are either 0 or 1. There are 2m such polynomials in the field and the degree of each polynomial is no more than m-1. Therefore the elements can be represented as m-bit strings. Each bit in the bit string corresponding to the coefficient in the polynomial at the same position. For example, GF(23) contains 8 element {0, 1, x, x+1, x2, x2+1, x2+x, x2+x+1}. x+1 is actually 0x2+1x+1, so it can be represented as a bit string 011. Similarly, x2+x = 1x2+1x+0, so it can be represented as 110.
-
-In modulo 2 arithmetics, 1+1 ≡ 0 mod 2, 1+0 ≡ 1 mod 2 and 0+0 ≡ 0 mod 2, which coincide with bit-XOR, i.e. 1⊕1=0, 1⊕0=1 0⊕0=0. Therefore for binary polynomials, addition is simply bit-by-bit XOR. Also, in modulo 2 arithmetics, -1 ≡ 1 mod 2, so the result of subtraction of elements is the same as addition. For example:
-
-(x2+x+1) +(x+1) =x2+2x+2, since 2 ≡ 0 mod 2 the final result is x2. It can also be computed as 111⊕011=100. 100 is the bit string representation of x2.
-
-(x2+x+1) -(x+1) =x2
